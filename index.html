@@ -150,6 +150,14 @@ footer{display:flex;justify-content:space-between;align-items:center;gap:24px;pa
 @keyframes scripture-fade-in{from{opacity:0}to{opacity:1}}
 @media(prefers-reduced-motion:reduce){.scripture-highlight.is-armed{opacity:1}.scripture-highlight.is-fading-in{animation:none;opacity:1}}
 
+/* --- Running-cost note under the donate copy. Rows follow the same
+   label/amount rhythm as the launch budget block. --- */
+.donate-note{max-width:540px;margin-top:32px;padding-top:24px;border-top:1px solid #ffffff2b}
+.donate-note-tag{display:block;margin-bottom:14px;color:var(--primary);font-size:11px;font-weight:800;letter-spacing:.2em}
+.donate-note-list>div{display:flex;justify-content:space-between;align-items:baseline;gap:20px;padding:12px 0;border-bottom:1px solid #ffffff1f}
+.donate-note-list span{color:#b8bcb5;font-size:14px;line-height:1.5}
+.donate-note-list strong{color:#fff;font-size:15px;white-space:nowrap;font-variant-numeric:tabular-nums}
+
 </style>
 </head>
 <body>
@@ -193,7 +201,7 @@ footer{display:flex;justify-content:space-between;align-items:center;gap:24px;pa
   </section>
 
   <section class="donate" id="donate">
-    <div class="donate-intro"><div class="section-tag light">GO WITH US / 與我們同行</div><h2 class="title-heading">每月定期奉獻，<br>福音前進的燃料</h2><p>如經上所記：<span class="scripture-highlight" id="scripture-highlight">「未曾聞知他信息的，將要看見；未曾聽過的，將要明白。」</span>我們看見這塊土地還有許多未進入的角落，尚未聽見福音的百姓正在等著你我的行動。<br>你不一定坐在車上，但你的奉獻可以與我們一同奔走。有你每月穩定的支持，讓我們能持續前往下一個鄉鎮。</p></div>
+    <div class="donate-intro"><div class="section-tag light">GO WITH US / 與我們同行</div><h2 class="title-heading">每月定期奉獻，<br>福音前進的燃料</h2><p>如經上所記：<span class="scripture-highlight" id="scripture-highlight">「未曾聞知他信息的，將要看見；未曾聽過的，將要明白。」</span>我們看見這塊土地還有許多未進入的角落，尚未聽見福音的百姓正在等著你我的行動。<br>你不一定坐在車上，但你的奉獻可以與我們一同奔走。有你每月穩定的支持，讓我們能持續前往下一個鄉鎮。</p><div class="donate-note"><span class="donate-note-tag">附註</span><div class="donate-note-list"><div><span>停車費</span><strong>$5,000</strong></div><div><span>油費/保險/保養</span><strong>$12,000</strong></div><div><span>佈道</span><strong>$80,000</strong></div></div></div></div>
     <div class="donate-box"><a class="donate-button" href="https://p.ecpay.com.tw/2E295FA" target="_blank" rel="noopener noreferrer" aria-label="前往綠界定期定額奉獻頁面（在新分頁開啟）">開始定期定額奉獻 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a><a class="single-donation-link" href="https://p.ecpay.com.tw/8BEC21B" target="_blank" rel="noopener noreferrer">單筆奉獻福音卡車 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a><p class="secure-note">將前往安全奉獻頁面・可隨時調整或停止</p><button class="share-button" id="share-button" type="button" aria-expanded="false" aria-controls="share-options"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" x2="15.42" y1="13.51" y2="17.49"/><line x1="15.41" x2="8.59" y1="6.51" y2="10.49"/></svg> 分享這個行動</button></div>
   </section>
 
